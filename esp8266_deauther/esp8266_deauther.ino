@@ -100,7 +100,7 @@ void SaklarON() {
       cli.runCommand("scan all -c 60s");
       cli.runCommand("DELAY 5s");
       cli.runCommand("stopap");
-      cli.runCommand("DELAY 10s");
+      cli.runCommand("DELAY 15s");
       cli.runCommand("attack -da -b -p -no -t 0");
       digitalWrite(D4, LOW); // turn LED on
     } else {
