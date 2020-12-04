@@ -263,7 +263,7 @@
 #endif /* ifndef DEAUTHS_PER_TARGET */
 
 #ifndef DEAUTH_REASON
-  #define DEAUTH_REASON 1
+  #define DEAUTH_REASON 5
 #endif /* ifndef DEAUTH_REASON */
 
 #ifndef BEACON_INTERVAL_100MS
@@ -465,7 +465,7 @@
  #define RANDOM_TX false
  #define ATTACK_TIMEOUT 600
  #define DEAUTHS_PER_TARGET 25
- #define DEAUTH_REASON 1
+ #define DEAUTH_REASON 5
  #define BEACON_INTERVAL_100MS true
  #define PROBE_FRAMES_PER_SSID 1
 

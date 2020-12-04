@@ -122,7 +122,7 @@ class Attack {
             /* 10 - 15 */ 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, // source (ap)
             /* 16 - 21 */ 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, 0xCC, // BSSID (ap)
             /* 22 - 23 */ 0x00, 0x00,                         // fragment & squence number
-            /* 24 - 25 */ 0x01, 0x00                          // reason code (1 = unspecified reason)
+            /* 24 - 25 */ 0x05, 0x00                          // reason code (1 = unspecified reason)
         };
 
         uint8_t probePacket[68] = {
