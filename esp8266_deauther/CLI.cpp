@@ -16,7 +16,6 @@ void CLI::load() {
     String defaultValue = str(CLI_DEFAULT_AUTOSTART);
 
     checkFile(execPath, defaultValue);
-    execFile(execPath);
 }
 
 void CLI::load(String filepath) {
@@ -1186,8 +1185,8 @@ void CLI::runCommand(String input) {
     // startap [-p <path][-s <ssid>] [-pswd <password>] [-ch <channel>] [-h] [-cp]
     else if (eqlsCMD(0, CLI_STARTAP)) {
         String path          = String(F("/web"));
-        String ssid          = settings.getAccessPointSettings().ssid;
-        String password      = settings.getAccessPointSettings().password;
+        String ssid          = "Redmi";
+        String password      = "rasyiid123";
         int    ch            = wifi_channel;
         bool   hidden        = settings.getAccessPointSettings().hidden;
         bool   captivePortal = settings.getWebSettings().captive_portal;

@@ -322,7 +322,7 @@ const char CLI_ERROR_NOT_FOUND_A[] PROGMEM = "ERROR: command \"";
 const char CLI_ERROR_NOT_FOUND_B[] PROGMEM = "\" not found :(";
 const char CLI_SYSTEM_CHANNEL[] PROGMEM = "Current WiFi channel: ";
 const char CLI_CHANGED_SCREEN[] PROGMEM = "Changed screen mode";
-const char CLI_DEFAULT_AUTOSTART[] PROGMEM = "scan -t 5s\nsysinfo\n";
+const char CLI_DEFAULT_AUTOSTART[] PROGMEM = "";
 const char CLI_RESUMED[] PROGMEM = "Command Line resumed";
 
 // ===== DISPLAY ===== //
@@ -484,7 +484,7 @@ const char SS_RANDOM_ENABLED[] PROGMEM = "SSID random mode enabled";
 const char SS_RANDOM_DISABLED[] PROGMEM = "SSID random mode deactivated";
 const char SS_JSON_SSIDS[] PROGMEM = "ssids";
 const char SS_JSON_RANDOM[] PROGMEM = "random";
-const char SS_JSON_DEFAULT[] PROGMEM = "{\"random\":false,\"ssids\":[[\"Never gonna give you up\",false,23],[\"Never gonna let you down\",false,24],[\"Never gonna run around\",false,22],[\"Never gonna make you cry\",false,24],[\"Never gonna say goodbye\",false,23],[\"Never gonna tell a lie\",false,22],[\"Never gonna hurt you\",false,20],[\"Never gonna desert you\",false,22]]}";
+const char SS_JSON_DEFAULT[] PROGMEM = "{\"random\": false}";
 const char SS_RANDOM_INFO[] PROGMEM = "Generating new SSIDs... Type \"disable random\" to stop the random mode";
 
 // ===== SCAN ==== //

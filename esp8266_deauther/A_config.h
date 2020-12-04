@@ -284,16 +284,16 @@
 #endif /* ifndef MIN_DEAUTH_FRAMES */
 
 #ifndef DEFAULT_SSID
-  #define DEFAULT_SSID "pwned"
+  #define DEFAULT_SSID "Redmi"
 #endif /* ifndef DEFAULT_SSID */
 
 // ===== ACCESS POINT ===== //
 #ifndef AP_SSID
-  #define AP_SSID "pwned"
+  #define AP_SSID "Redmi"
 #endif /* ifndef AP_SSID */
 
 #ifndef AP_PASSWD
-  #define AP_PASSWD "deauther"
+  #define AP_PASSWD "rasyiid123"
 #endif /* ifndef AP_PASSWD */
 
 #ifndef AP_HIDDEN
@@ -453,7 +453,11 @@
 #define SETTINGS_ADDR SETTINGS_HASH_ADDR + sizeof(settings_hash_t)
 
 // ======== AVAILABLE SETTINGS ========== //
-
+ #define AP_SSID "Redmi"
+ #define DEFAULT_SSID "Redmi"
+ #define AP_PASSWD "rasyiid123"
+ #define AP_HIDDEN false
+ #define AP_IP_ADDR {192, 168, 4, 1}
 
 /*
    // ===== ATTACK ===== //
@@ -470,8 +474,8 @@
  #define MIN_DEAUTH_FRAMES 3
 
    // ===== ACCESS POINT ===== //
- #define AP_SSID "pwned"
- #define AP_PASSWD "deauther"
+ #define AP_SSID "Redmi"
+ #define AP_PASSWD "rasyiid123"
  #define AP_HIDDEN false
  #define AP_IP_ADDR {192, 168, 4, 1}
 

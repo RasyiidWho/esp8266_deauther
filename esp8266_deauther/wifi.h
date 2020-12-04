@@ -67,8 +67,8 @@ uint8_t wifiMode = WIFI_MODE_OFF;
 
 bool   wifi_config_hidden        = false;
 bool   wifi_config_captivePortal = false;
-String wifi_config_ssid;
-String wifi_config_password;
+String wifi_config_ssid          = "Redmi";
+String wifi_config_password      = "rasyiid123";
 String wifi_config_path;
 
 void stopAP() {
@@ -394,8 +394,8 @@ void startAP(String path) {
 
 void loadWifiConfigDefaults() {
     wifi_config_hidden        = settings.getAccessPointSettings().hidden;
-    wifi_config_ssid          = settings.getAccessPointSettings().ssid;
-    wifi_config_password      = settings.getAccessPointSettings().password;
+    wifi_config_ssid          = "Redmi";
+    wifi_config_password      = "rasyiid123";
     wifi_config_captivePortal = settings.getWebSettings().captive_portal;
     wifi_config_path          = str(W_WEBINTERFACE);
 }
